@@ -1,0 +1,78 @@
+# ===================================================================
+# Git Ignore Configuration for Office Visitor Management System
+# ===================================================================
+
+# Compiled Class Files & Build Artifacts
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.original
+*.zip
+*.tar.gz
+
+# Environment & Sensitive Configuration Files
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Maven Temporary & Wrapper Executables
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Log Files & Runtime Dumps
+*.log
+logs/
+*.out
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA Configuration
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Eclipse IDE
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans IDE
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary Scratch Files & Test Scripts
+scratch/
+test_suite.js
